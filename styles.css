@@ -14,6 +14,7 @@
   display: inline;
   font-family: "Quicksand", sans-serif;
   font-size: 42px;
+  margin-left: 150px;
 }
 
 #logo {
@@ -27,7 +28,7 @@
   display: block;
   max-width: 85px;
   position: absolute;
-  margin-left: 850px;
+  margin-left: 1160px;
   margin-top: -45px;
   background-color: #009eff;
   color: white;
@@ -37,13 +38,31 @@
   font-family: "Quicksand", sans-serif;
 }
 
+.funding {
+  width:125.94px;
+  font-size: 16px;
+  display: block;
+  max-width: 140px;
+  position: absolute;
+  margin-left: 1280px;
+  margin-top: -45px;
+  background-color: #009eff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+  
+}
+
 .valuations {
   width:120.94px;
   font-size: 16px;
   display: block;
   max-width: 140px;
   position: absolute;
-  margin-left: 970px;
+  margin-left: 1425px;
   margin-top: -45px;
   background-color: #009eff;
   color: white;
@@ -60,7 +79,7 @@
   display: block;
   max-width: 140px;
   position: absolute;
-  margin-left: 1110px;
+  margin-left: 1565px;
   margin-top: -45px;
   background-color: #009eff;
   color: white;
@@ -72,7 +91,6 @@
 }
 
 table {
-  display: flex; 
   flex-direction: column;
   border-collapse: collapse;
   border-radius: 10px;
@@ -81,17 +99,29 @@ table {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  margin: 70px 90px;
+  margin: 70px 200px 0px 150px;
+  
+}
+
+td {
+  width: 16.666667%;
+  height: 20px;
 }
 
 th {
   background: #009eff;
   color: #ffffff;
   text-align: left;
+  width: 600px;
+  height: 50px;
+  
+  
+  
 }
 
 th,td {
   padding: 10px 20px;
+  
 }
 
 tr:nth-child(even) {
