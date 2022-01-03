@@ -1,0 +1,99 @@
+.logo {
+  display: block;
+  align-content: center;
+  margin: 10px 0px 0px 90px;
+}
+
+.logo:hover {
+  color: #009eff;
+  transition: all 350ms ease;
+}
+
+#title {
+  
+  display: inline;
+  font-family: "Quicksand", sans-serif;
+  font-size: 42px;
+}
+
+#logo {
+  display: inline;
+  max-width: 80px;
+  max-height: 50px;
+  margin-top: 20px;
+}
+
+.upload {
+  display: block;
+  max-width: 85px;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -45px;
+  background-color: #009eff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+}
+
+.valuations {
+  width:120.94px;
+  font-size: 16px;
+  display: block;
+  max-width: 140px;
+  position: absolute;
+  margin-left: 970px;
+  margin-top: -45px;
+  background-color: #009eff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+}
+
+.amounts {
+  width:120.94px;
+  font-size: 16px;
+  display: block;
+  max-width: 140px;
+  position: absolute;
+  margin-left: 1110px;
+  margin-top: -45px;
+  background-color: #009eff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  border: none;
+}
+
+table {
+  display: flex; 
+  flex-direction: column;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 70px 90px;
+}
+
+th {
+  background: #009eff;
+  color: #ffffff;
+  text-align: left;
+}
+
+th,td {
+  padding: 10px 20px;
+}
+
+tr:nth-child(even) {
+  background: #eeeeee;
+}

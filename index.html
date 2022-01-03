@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShakeTracker</title>
+  <link rel="short icon" type="image/ico" href="./Media/Favicon.ico">
+</head>
+<body>
+  <h1 class="logo" id="title">ShakeTracker</h1>
+  <img class="" id="logo" src="./Media/Logo.png" height: auto; alt="Brand logo of blue arrow going up">
+
+  <input type="file" id="csvFileInput" title="" accept=".csv" hidden>
+  <label class="upload" id="hiddenUpload" for="csvFileInput">Upload File</label>
+  <!-- name of file chosen -->
+  <span id="file-chosen" hidden>No file chosen</span>
+
+  <button class="valuations">Track Value</button>
+  <button class="amounts">Track Amount</button>
+
+  <table id="csvRoot"></table>
+
+  <script src="./papaparse.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+  <link href="./styles.css" rel="stylesheet">
+  
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+Barebones: html, css, js 
+extra: bootstrap, store data (node and mongoDB)
+
+Roadmap:
+
+Parse data, convert to json
+
+
+
+
+Features:
+
+1. graph the amount of funding added into account
+
+2. graph amount of BTC, or ETH I have over time
+
+3. graph value of BTC, or ETH I have over time
+
+4. graph the amount of ETH / BTC I have compared to it's price (chart.js or d3.js)
+  4.1 you can do this by keeping a counter var updating the quantity of crypto based on "direction" header id and then multiplying 
+      the current counter var by crypto price of the most recent purchase to get the total value of that asset
+  4.2 top right you can place an overall % return (green = positive, red = negative) => final asset value / initial asset value
+ 
+
+Resources:
+
+Parser    https://www.papaparse.com/docs
+YT        https://www.youtube.com/watch?v=00SBedXA4Yc&ab_channel=ExcellenceinExcel
+YT        https://www.youtube.com/watch?v=fwyN81KiAWU&ab_channel=dcode
+style charts using: https://www.youtube.com/watch?v=fqARSwfsV9w&ab_channel=DevEd
+Multipage website tutorial  https://www.youtube.com/watch?v=iXSSHlOe47s&ab_channel=LearnCode.academy
